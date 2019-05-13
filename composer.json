@@ -1,0 +1,30 @@
+{
+    "name": "ingenioz-it/psr3",
+    "description": "PSR-3 : Logger",
+    "keywords": ["PSR", "psr-3", "Logger"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IngeniozIT",
+            "email": "contact@ingenioz.it"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "IngeniozIT\\Psr3\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IngeniozIT\\Psr3\\Tests\\": "tests/"
+        }
+    }
+}
