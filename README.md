@@ -10,7 +10,7 @@ An implementation of the PSR-3 : LoggerInterface.
 # Installation
 
 ```sh
-composer ingenioz-it/psr3
+composer require ingenioz-it/psr3
 ```
 
 # Usage
