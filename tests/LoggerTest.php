@@ -19,7 +19,7 @@ class LoggerTest extends TestCase
         self::$logFilePath = dirname(__FILE__).'/Psr3LoggerTest.log';
     }
 
-    public function tearDown()
+    public function tearDown(): void
     {
         if (file_exists(self::$logFilePath)) {
             unlink(self::$logFilePath);

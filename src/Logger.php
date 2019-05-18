@@ -46,7 +46,7 @@ class Logger implements LoggerInterface
         foreach ($context as $key => $val) {
             // check that the value can be casted to string
             if (!is_array($val) && (!is_object($val) || method_exists($val, '__toString'))) {
-                $replace['{' . $key . '}'] = $val;
+                $replace['{'.$key.'}'] = $val;
             }
         }
 
