@@ -3,6 +3,7 @@
     "type": "library",
     "description": "PSR-3 : Logger",
     "keywords": ["PSR", "psr-3", "Logger"],
+    "homepage": "https://github.com/IngeniozIT/psr3-logger",
     "license": "MIT",
     "authors": [
         {
