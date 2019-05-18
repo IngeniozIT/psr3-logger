@@ -1,8 +1,8 @@
 {
     "name": "ingenioz-it/psr3",
+    "type": "library",
     "description": "PSR-3 : Logger",
     "keywords": ["PSR", "psr-3", "Logger"],
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
